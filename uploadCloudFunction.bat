@@ -1,0 +1,1 @@
+"E:\小程序\wechat_devtools_1.05\cli.bat" cloud functions deploy --e cloud1-9gbfvu537a51da2c --n quickstartFunctions --r --project "D:\桌面\失物招领1.05" --report_first --report

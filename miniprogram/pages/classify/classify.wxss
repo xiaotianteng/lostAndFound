@@ -1,0 +1,56 @@
+.classify-container {
+  display: flex;
+  background-color: #fff;
+}
+.classify-left {
+  display: flex;
+  flex-direction: column;
+}
+.classify-left-text {
+  white-space: nowrap;
+}
+
+.classify-left-item {
+  background-color: #f3f3f3;
+  padding: 40rpx 20rpx;
+  text-align: center;
+  font-size: 26rpx;
+  position: relative;
+}
+
+.classify-line {
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 50%;
+  border: 3rpx solid #2c2727;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.classify-select {
+  background-color: #fff;
+}
+
+.classify-right {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-content: flex-start;
+}
+.classify-right-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  padding: 20rpx;
+}
+
+.classify-right-item .classify-right-image {
+  width: 85rpx;
+  height: 85rpx;
+}
+.classify-right-item .classify-right-text {
+  font-size: 26rpx;
+}
